@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Desafio 3</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        .head {
+            background-color: gray;
+            color: white;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        th {
+            padding: 8px;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 3</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2" scope="rowgroup">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td class="num">10</td>
+                <td class="num">10</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="num">8</td>
+                <td class="num">9</td>
+                <td class="num">8.5</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="num">9</td>
+                <td class="num">10</td>
+                <td class="num">9.5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">9</td>
+                <td class="num">8</td>
+                <td class="num">8.5</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="colgroup" class="head">Média de Exatas</th>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td class="num">7</td>
+                <td class="num">8</td>
+                <td class="num">7.5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">6</td>
+                <td class="num">7</td>
+                <td class="num">6.5</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="head">Média de Humanas</th>
+                <td class="num">7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
