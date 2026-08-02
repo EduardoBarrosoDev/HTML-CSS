@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Politica</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid eos consequatur? Inventore tempore, totam soluta odit explicabo dolor fugit facere aliquam itaque quos consectetur quasi repudiandae nesciunt possimus illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam autem, sapiente accusamus tempore natus fugiat perspiciatis veritatis harum hic omnis itaque, quis minus expedita! Culpa, aspernatur laudantium! Cum, doloremque!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia unde accusantium laboriosam adipisci molestias corrupti eveniet quibusdam earum, architecto assumenda numquam impedit omnis suscipit voluptas, ratione nisi inventore accusamus provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ut est sequi quibusdam laudantium! Dignissimos exercitationem voluptatem laborum reprehenderit rerum doloribus. Iusto ducimus fuga, reprehenderit eaque eveniet molestiae itaque sequi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi asperiores fugit reprehenderit commodi. Neque quae fugiat, eaque in, voluptates iusto officia voluptas expedita minus incidunt et ea. Expedita, distinctio nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique debitis fuga iusto quis tenetur vel esse dicta quisquam est? Ea laudantium possimus accusantium sequi impedit non libero ducimus rerum soluta.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }   else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
